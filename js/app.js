@@ -8,14 +8,17 @@ angular
 
 			when('/rus', {
 				templateUrl: 'templates/rus.html',
+				controller: 'rusListCtrl'
 			}).
 
 			when('/fr', {
 				templateUrl: 'templates/fr.html',
+				controller: 'frListCtrl'
 			}).
 
 			when('/it', {
 				templateUrl: 'templates/it.html',
+				controller: 'itListCtrl'
 			}).
 
 			otherwise({
