@@ -1,0 +1,8 @@
+<div class="item_container" ng-repeat="recipe in recipes | orderBy:'-like' | filter:query" >
+	<a href="#/recipes/{{recipe.id}}"><div class="item"><img ng-src="{{recipe.imageUrl}}"><div class="item_info">{{recipe.name}}</div>
+	</div><a>
+	<div class="like_btn" ng-click="like(recipe)">Like!</div>
+	<div class="like_count">{{recipe.like}}</div>
+</div>
+
+

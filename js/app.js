@@ -1,32 +1,38 @@
 angular
 	.module('app',[
-		'ngRoute'
+		'ui.router'
 	])
 
-	.config(['$routeProvider', function($routeProvider){
-		$routeProvider.
+	.config(['$stateProvider','$urlRouterProvider', function($stateProvider, $urlRouterProvider){
+		$urlRouterProvider.otherwise('/');
 
-			when('/rus', {
-				templateUrl: 'templates/rus.html',
-				controller: 'recipeListCtrl'
-			}).
+		$stateProvider
+			.state('new', {
+				url: '/',
+				templateUrl: 'templates/new.html',
+				controller: 'RecipeListCtrl'
+			})
 
-			when('/fr', {
-				templateUrl: 'templates/fr.html',
-				controller: 'recipeListCtrl'
-			}).
+			.state('popular', {
+				url: '/popular',
+				templateUrl: 'templates/popular.html',
+				controller: 'RecipeListCtrl'
+			})
 
-			when('/it', {
-				templateUrl: 'templates/it.html',
-				controller: 'recipeListCtrl'
-			}).
+			.state('season', {
+				url: '/season',
+				templateUrl: 'templates/season.html',
+				controller: 'RecipeListCtrl'
+			})
 
-			when('/recipes/:recipeId', {
-        		templateUrl: 'templates/recipe.html',
-        		controller: 'recipeDetailCtrl'
-      		}).
+			.state('info', {
+				url: '/info',
+        		templateUrl: 'templates/info.html'
+      		})
 
-			otherwise({
-        	redirectTo: '/'
+      		.state('recipeId',{
+      			url: '/recipes/:recipeId',
+      			templateUrl: 'templates/recipe.html',
+      			controller: 'RecipeDetailCtrl'
       		});
 	}])

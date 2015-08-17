@@ -4,62 +4,143 @@
         "id": "krutaya-grechnevaya-kasha", 
         "imageUrl": "/img/recipes/krutaya-grechnevaya-kasha.jpg", 
         "name": "Крутая гречневая каша", 
-        "snippet": "Подаются к ней сахар и сливки, в постный день миндальное или маковое молоко."
+        "snippet": "Подаются к ней сахар и сливки, в постный день миндальное или маковое молоко.",
+        "like": 121
     }, 
     {
         "age": 1, 
         "id": "blini-grechnevie", 
         "imageUrl": "/img/recipes/blini-grechnevie.jpg", 
-        "name": "Блины гречневые пополам с пшеничной мукой заварные", 
-        "snippet": "С вечера взять 2 стакана гречневой муки."
+        "name": "Блины гречневые", 
+        "snippet": "С вечера взять 2 стакана гречневой муки.",
+        "like": 390
     }, 
     {
         "age": 2, 
         "id": "beliy-tort-mindalniy", 
         "imageUrl": "/img/recipes/beliy-tort-mindalniy.jpg", 
         "name": "Белый торт миндальный", 
-        "snippet": "1 фунт мелко истолченного сладкого миндаля."
+        "snippet": "1 фунт мелко истолченного сладкого миндаля.",
+        "like": 98
     }, 
     {
         "age": 3, 
         "id": "Croissant", 
         "imageUrl": "img/recipes/Croissant.jpg", 
         "name": "Круассаны", 
-        "snippet": "Булочки в форме полумесяцев."
+        "snippet": "Булочки в форме полумесяцев.",
+        "like": 50
     }, 
     {
         "age": 4, 
         "id": "lukovii-sup", 
         "imageUrl": "img/recipes/lukovii-sup.jpg", 
         "name": "Луковый суп", 
-        "snippet": "Лук для супа пассеруют – поджаривают."
+        "snippet": "Лук для супа пассеруют – поджаривают.",
+        "like": 10
     }, 
     {
         "age": 5, 
         "id": "cream-brule", 
         "imageUrl": "img/recipes/cream-brule.jpg", 
         "name": "Крем-брюле", 
-        "snippet": " десерт из заварного крема с карамельной корочкой"
+        "snippet": " десерт из заварного крема с карамельной корочкой",
+        "like": 300
     }, 
     {
         "age": 6, 
         "id": "Spaghetti", 
         "imageUrl": "img/recipes/Spaghetti.jpg", 
         "name": "Спагетти", 
-        "snippet": " вид макаронных изделий с круглым сечением."
+        "snippet": " вид макаронных изделий с круглым сечением.",
+        "like": 200
     }, 
     {
         "age": 7, 
         "id": "pizza", 
         "imageUrl": "img/recipes/pizza.jpg", 
         "name": "Пицца", 
-        "snippet": "национальное блюдо в виде круглой открытой лепешки."
+        "snippet": "национальное блюдо в виде круглой открытой лепешки.",
+        "like": 542
     }, 
     {
         "age": 8, 
         "id": "risotto", 
         "imageUrl": "img/recipes/risotto.jpg", 
         "name": "Ризотто", 
-        "snippet": "распространённое блюдо из риса в Северной Италии."
+        "snippet": "распространённое блюдо из риса в Северной Италии.",
+        "like": 748
+    },
+    {
+        "age": 0, 
+        "id": "krutaya-grechnevaya-kasha", 
+        "imageUrl": "/img/recipes/krutaya-grechnevaya-kasha.jpg", 
+        "name": "Крутая гречневая каша", 
+        "snippet": "Подаются к ней сахар и сливки, в постный день миндальное или маковое молоко.",
+        "like": 121
+    }, 
+    {
+        "age": 1, 
+        "id": "blini-grechnevie", 
+        "imageUrl": "/img/recipes/blini-grechnevie.jpg", 
+        "name": "Блины гречневые", 
+        "snippet": "С вечера взять 2 стакана гречневой муки.",
+        "like": 390
+    }, 
+    {
+        "age": 2, 
+        "id": "beliy-tort-mindalniy", 
+        "imageUrl": "/img/recipes/beliy-tort-mindalniy.jpg", 
+        "name": "Белый торт миндальный", 
+        "snippet": "1 фунт мелко истолченного сладкого миндаля.",
+        "like": 98
+    }, 
+    {
+        "age": 3, 
+        "id": "Croissant", 
+        "imageUrl": "img/recipes/Croissant.jpg", 
+        "name": "Круассаны", 
+        "snippet": "Булочки в форме полумесяцев.",
+        "like": 50
+    }, 
+    {
+        "age": 4, 
+        "id": "lukovii-sup", 
+        "imageUrl": "img/recipes/lukovii-sup.jpg", 
+        "name": "Луковый суп", 
+        "snippet": "Лук для супа пассеруют – поджаривают.",
+        "like": 10
+    }, 
+    {
+        "age": 5, 
+        "id": "cream-brule", 
+        "imageUrl": "img/recipes/cream-brule.jpg", 
+        "name": "Крем-брюле", 
+        "snippet": " десерт из заварного крема с карамельной корочкой",
+        "like": 300
+    }, 
+    {
+        "age": 6, 
+        "id": "Spaghetti", 
+        "imageUrl": "img/recipes/Spaghetti.jpg", 
+        "name": "Спагетти", 
+        "snippet": " вид макаронных изделий с круглым сечением.",
+        "like": 200
+    }, 
+    {
+        "age": 7, 
+        "id": "pizza", 
+        "imageUrl": "img/recipes/pizza.jpg", 
+        "name": "Пицца", 
+        "snippet": "национальное блюдо в виде круглой открытой лепешки.",
+        "like": 542
+    }, 
+    {
+        "age": 8, 
+        "id": "risotto", 
+        "imageUrl": "img/recipes/risotto.jpg", 
+        "name": "Ризотто", 
+        "snippet": "распространённое блюдо из риса в Северной Италии.",
+        "like": 748
     } 
 ]
