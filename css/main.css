@@ -54,7 +54,6 @@ input{
 	width: 200px;
 	display: inline-block;
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
-	background-color: #eee;
 	vertical-align: top;
 	margin-left: 5px;
 	margin-top: 5px;
@@ -62,8 +61,8 @@ input{
 }
 .item img {
 	max-width: none;
-	width: -webkit-calc(100% + 10%) ;
-	width: calc(100%+ 10%);
+	width: -webkit-calc(100% + 5%) ;
+	width: calc(100% + 5%);
 	opacity: 1;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
