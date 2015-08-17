@@ -74,7 +74,7 @@
     {
         "age": 0, 
         "id": "krutaya-grechnevaya-kasha", 
-        "imageUrl": "/img/recipes/krutaya-grechnevaya-kasha.jpg", 
+        "imageUrl": "img/recipes/krutaya-grechnevaya-kasha.jpg", 
         "name": "Крутая гречневая каша", 
         "snippet": "Подаются к ней сахар и сливки, в постный день миндальное или маковое молоко.",
         "like": 121
@@ -82,7 +82,7 @@
     {
         "age": 1, 
         "id": "blini-grechnevie", 
-        "imageUrl": "/img/recipes/blini-grechnevie.jpg", 
+        "imageUrl": "img/recipes/blini-grechnevie.jpg", 
         "name": "Блины гречневые", 
         "snippet": "С вечера взять 2 стакана гречневой муки.",
         "like": 390
@@ -90,7 +90,7 @@
     {
         "age": 2, 
         "id": "beliy-tort-mindalniy", 
-        "imageUrl": "/img/recipes/beliy-tort-mindalniy.jpg", 
+        "imageUrl": "img/recipes/beliy-tort-mindalniy.jpg", 
         "name": "Белый торт миндальный", 
         "snippet": "1 фунт мелко истолченного сладкого миндаля.",
         "like": 98
